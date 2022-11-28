@@ -1,4 +1,4 @@
-package Model;
+package Model.Store;
 
 public class Store {
     private String StoreName; // 가게 이름
