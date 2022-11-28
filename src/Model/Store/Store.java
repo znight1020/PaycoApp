@@ -37,6 +37,6 @@ public class Store {
 
     @Override
     public String toString() {
-        return "현재 가게 정보:\n\t금일 가게 매출: " + StoreRevenue +"\n\tvisitCount=" + visitCount;
+        return "현재 가게 정보: 금일 가게 매출 = " + StoreRevenue + ", 방문자 수 = " + visitCount + "\n----------------------------------------";
     }
 }

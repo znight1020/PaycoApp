@@ -12,7 +12,7 @@ public class Client {
     private int point; // default = 0, 포인트 : 포인트결제 시 사용
     private int coupon; // default = 1, 쿠폰 : 할인 시 적용
 
-    public Client(String name, ArrayList inventory){
+    public Client(String name){
         this.name = name;
         this.inventory = new ArrayList<Integer>();
         this.cardId = 1;

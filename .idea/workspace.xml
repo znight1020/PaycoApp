@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb5d3906-dbb2-4d87-8f89-6977335deac3" name="변경" comment="InitCommit">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/CouponStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/Pay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/SavePoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/Store/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/View/MenuView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/View/PaycoApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Store/Store.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/CouponStack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/Pay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Pay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/SavePoint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Store/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Store/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Store/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Store/Store.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View/MenuView.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +57,20 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\znigh\IdeaProjects\PaycoApp\src" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="PaycoApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="애플리케이션.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
