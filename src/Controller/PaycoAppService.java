@@ -15,6 +15,9 @@ public class PaycoAppService {
         product = new Product();
         client = new Client("이현수");
         cv = new ClientView(store, product, client);
+        while(true){
+            System.out.println("[점원]: 주문하시겠습니까?");
+        }
     }
     
 }
