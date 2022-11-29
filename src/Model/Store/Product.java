@@ -1,9 +1,6 @@
 package Model.Store;
 
 public class Product {
-    private String productName;
-    private int price;
-
     private String productNames[];
     private int productPrices[];
 

@@ -3,12 +3,12 @@ package Model.Store;
 public class Store {
     private String StoreName; // 가게 이름
     private int StoreRevenue; // 가게 수익
-    private int visitCount; // 팔린 물건 수
+    private int sellCount; // 판매량
 
     public Store(String StoreName){
         this.StoreName = StoreName;
         this.StoreRevenue = 0;
-        this.visitCount = 0;
+        this.sellCount = 0;
     }
 
     public String getStoreName() {
@@ -27,16 +27,18 @@ public class Store {
         StoreRevenue = storeRevenue;
     }
 
-    public int getVisitCount() {
-        return visitCount;
+    public int getSellCount() {
+        return sellCount;
     }
 
-    public void setVisitCount(int visitCount) {
-        this.visitCount = visitCount;
+    public void setSellCount(int sellCount) {
+        this.sellCount = sellCount;
     }
 
     @Override
     public String toString() {
-        return "현재 가게 정보: 금일 가게 매출 = " + StoreRevenue + ", 방문자 수 = " + visitCount + "\n----------------------------------------";
+        return "현재 가게 정보: 금일 가게 매출 = " + StoreRevenue + ", 판매량 = " + sellCount + "\n----------------------------------------";
     }
+
+    
 }
