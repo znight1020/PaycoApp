@@ -4,8 +4,6 @@ import Model.Store.Store;
 
 public class Pay {
     private boolean flag;
-    private int coupon;
-    private int point;
     public Pay(Client client,Store store, String payMehtod, String menuName, int price){
         flag = false;
         switch (payMehtod){
@@ -50,10 +48,14 @@ public class Pay {
             System.out.println("현금이 부족합니다.");
         }
     }
-    public void pointPay(Client client, String menuName, int price){
+    
+    public void couponUserPay(Client client){
+        client.setCoupon(client.getCoupon() - 1);
+    }
+
+    public void pointPay(Client client, String menuName, int price){ // 포인트로 결제 시 포인트 적립이 안된다.
         if(client.getPoint()>= price){
             client.setPoint(client.getPoint() - price);
-            savePoint(client, price);
             flag = true;
         }
         else{

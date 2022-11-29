@@ -1,7 +1,7 @@
-import View.PaycoApp;
+import Controller.PaycoAppService;
 
 public class Main {
     public static void main(String[] args) {
-        new PaycoApp();
+        new PaycoAppService();
     }
 }
