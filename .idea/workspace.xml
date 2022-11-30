@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb5d3906-dbb2-4d87-8f89-6977335deac3" name="변경" comment="InitCommit">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/PaycoAppService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/PaycoAppService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Store/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Store/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Store/Seller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Store/Seller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Store/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Store/Store.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View/ClientView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/ClientView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +49,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/znigh/OneDrive/바탕 화면/SpringProject"
+    "last_opened_file_path": "C:/Users/znigh/IdeaProjects/PaycoApp"
   }
 }]]></component>
   <component name="RecentsManager">
